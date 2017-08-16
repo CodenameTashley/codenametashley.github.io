@@ -1,0 +1,9 @@
+#bs-example-navbar-collapse-1 .nav li a {
+    color: black;
+    cursor: pointer;
+}
+
+.active { 
+    background-color: #A0A0A0;
+    font-weight: bold;
+}
