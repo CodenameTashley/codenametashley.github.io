@@ -4,6 +4,19 @@
 }
 
 .active { 
-    background-color: #A0A0A0;
-    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.dark-text {
+    color: #333333;
+}
+
+.logo-small {
+    height: 40px;
+    width: 40px;
 }

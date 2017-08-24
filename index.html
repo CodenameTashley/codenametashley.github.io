@@ -3,14 +3,13 @@
 
 <head>
 
-        <base href="/" />
+    <base href="/" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is the blog for Tashley">
     <meta name="author" content="Tashley Toocaram">
 
-    <title>Tashley</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,14 +28,18 @@
     <script src="app.js"></script>
     <script src="app.config.js"></script>
     <script src="js/main.controller.js"></script>
-    
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
+
+    <!-- Icon in title bar -->
+    <link rel="icon" href="/img/tux.png">
+    <title>CodenameTashley</title>
 
 </head>
 
@@ -51,7 +54,9 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Tashley</a>
+                <a class="navbar-brand" ui-sref="main">
+                    <img src="img/tux.png" class="logo-small" alt="logo.png"/>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
