@@ -2,7 +2,6 @@ mainApp.config(function ($stateProvider, $urlRouterProvider,$locationProvider) {
 
     $urlRouterProvider.when("", "/main");
 
-    $locationProvider.html5Mode(true);
 
     $stateProvider
         .state("main", {

@@ -1,22 +1,33 @@
 #bs-example-navbar-collapse-1 .nav li a {
-    color: black;
+    color: #f7f7f7;
     cursor: pointer;
 }
 
 .active { 
-    border: 2px solid black;
-    border-radius: 5%;
+    text-decoration: underline;
 }
 
 body {
     background-color: #f7f7f7;
 }
 
-.dark-text {
-    color: #333333;
-}
-
 .logo-small {
     height: 40px;
     width: 40px;
+}
+
+.main-desc hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #f7f7f7; /* old IE */
+    background-color: #f7f7f7; /* Modern Browsers */
+}
+
+.main-desc h2 {
+    color: #0085A1;
+}
+
+.intro-header {
+    background-color: #333333;
 }
