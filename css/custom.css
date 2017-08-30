@@ -1,5 +1,5 @@
 #bs-example-navbar-collapse-1 .nav li a {
-    color: #f7f7f7;
+    color: #0085A1;
     cursor: pointer;
 }
 
@@ -30,4 +30,8 @@ body {
 
 .intro-header {
     background-color: #333333;
+}
+
+#short-desc {
+    font-size: 12px;
 }
