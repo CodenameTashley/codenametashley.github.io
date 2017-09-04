@@ -54,3 +54,11 @@ hr {
     height: 1px; 
     border: 0; 
 }
+
+.user-terminal {
+    color: #0085A1;
+}
+
+.center-image {
+    float: center;
+}
