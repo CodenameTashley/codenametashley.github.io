@@ -3,7 +3,6 @@
 
 <head>
 
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,15 +22,8 @@
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
         rel='stylesheet' type='text/css'>
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="app.js"></script>
-    <script src="app.config.js"></script>
-    <script src="js/main.controller.js"></script>
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -45,10 +37,8 @@
 
 <body ng-app="TashleyApp" ng-controller="mainController as vm">
 
-    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -59,7 +49,6 @@
                 </a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -73,16 +62,11 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
     <div ui-view></div>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -97,6 +81,22 @@
                             </a>
                         </li>
                         <li>
+                            <a href="https://www.linkedin.com/in/tashley-toocaram-356347114/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                        </li>
+                        <li>
+                            <a href="mailto:tashleyvivesh@gmail.com">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                        </li>
+                        <li>
                             <a href="https://www.facebook.com/tashley.vivesh">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
@@ -104,11 +104,12 @@
                                 </span>
                             </a>
                         </li>
+
                         <li>
-                            <a href="https://www.linkedin.com/in/tashley-toocaram-356347114/">
+                            <a href="https://www.instagram.com/codenametashley/?hl=en">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
@@ -120,8 +121,10 @@
                                 </span>
                             </a>
                         </li>
+                        <!-- mail-forward -->
+                    </ul>
 
-                        <p class="copyright text-muted">Copyright &copy; Tashley 2017</p>
+                    <p class="copyright text-muted">Copyright &copy; Tashley 2017 <br/> Last update on 9th September 2017</p>
                 </div>
             </div>
         </div>
@@ -134,11 +137,17 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
+    <!-- <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-
+ -->
     <!-- Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+    <script src="app.config.js"></script>
+    <script src="js/main.controller.js"></script>
 
 </body>
 
