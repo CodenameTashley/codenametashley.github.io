@@ -1,7 +1,18 @@
-angular.module("TashleyApp").controller('mainController', function($location, $window, $firebaseObject){
+angular.module("TashleyApp").controller('mainController', function ($http, $location, $window, $firebaseObject) {
     var vm = this;
     var ref = firebase.database().ref();
     this.nameTest = $firebaseObject(ref);
-    //console.log(this.nameTest);
     vm.year = new Date().getFullYear();
+
+    /* vm.username = "codenametashley/repos";
+    $http.get("https://api.github.com/users/" + vm.username + "?").then(function (response) {
+        console.log(response.data)
+    }); */
+
+    vm.username = "codenametashley/codenametashley.github.io";
+    $http.get("https://api.github.com/repos/" + vm.username + "?").then(function (response) {
+        vm.latestupdate = new Date(response.data.pushed_at).toDateString()
+        console.log(vm.latestupdate);
+    });
+
 });
