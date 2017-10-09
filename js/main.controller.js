@@ -11,8 +11,7 @@ angular.module("TashleyApp").controller('mainController', function ($http, $loca
 
     vm.username = "codenametashley/codenametashley.github.io";
     $http.get("https://api.github.com/repos/" + vm.username + "?").then(function (response) {
-        vm.latestupdate = new Date(response.data.pushed_at).toDateString()
-        console.log(vm.latestupdate);
+        vm.latestupdate = new Date(response.data.pushed_at).toDateString();
     });
 
 });
