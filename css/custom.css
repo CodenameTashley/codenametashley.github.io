@@ -68,3 +68,19 @@ hr {
     max-width: 40%;
     max-height: 40%;
 }
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 25px;
+    background-color: #efefef;
+    border: 1px solid #0085A1;
+    margin: 5px;
+}
+
+.chip :hover {
+    pointer-events: none;
+}
