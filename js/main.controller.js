@@ -4,11 +4,6 @@ angular.module("TashleyApp").controller('mainController', function ($http, $loca
     this.nameTest = $firebaseObject(ref);
     vm.year = new Date().getFullYear();
 
-    /* vm.username = "codenametashley/repos";
-    $http.get("https://api.github.com/users/" + vm.username + "?").then(function (response) {
-        console.log(response.data)
-    }); */
-
     vm.username = "codenametashley/codenametashley.github.io";
     $http.get("https://api.github.com/repos/" + vm.username + "?").then(function (response) {
         vm.latestupdate = new Date(response.data.pushed_at).toDateString();
