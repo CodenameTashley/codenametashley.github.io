@@ -16,8 +16,8 @@ mainApp.config(function ($stateProvider, $urlRouterProvider,$locationProvider) {
         })
         .state("post", {
             url: "/post",
-            templateUrl: "module/post/tpl/post.html"
-            /* controller: 'controllerWelcome as ctrl' */
+            templateUrl: "module/post/tpl/post.html",
+            controller: 'postCtrl as vm'
         })
         .state("contact", {
             url: "/contact",

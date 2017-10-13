@@ -57,9 +57,9 @@
                     <li>
                         <a ui-sref="about" ui-sref-active="active">About Me</a>
                     </li>
-                    <!-- <li>
-                        <a ui-sref="contact" ui-sref-active="active">Contact Me</a>
-                    </li> -->
+                    <li>
+                        <a ui-sref="post" ui-sref-active="active">Posts</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -146,7 +146,10 @@
     <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="bower_components/firebase/firebase.js"></script>
     <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
     <script src="app.js"></script>
+    <script src="service/post.api.factory.js"></script>
+    <script src="module/post/post.controller.js"></script>
     <script src="app.config.js"></script>
     <script src="js/main.controller.js"></script>
 
