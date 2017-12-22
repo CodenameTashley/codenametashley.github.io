@@ -86,7 +86,7 @@ hr {
 }
 
 /* SNOW MODE */
-body :before {
+#intro-header :before {
   content: "\002745";
   z-index: 9999;
   position: fixed;
