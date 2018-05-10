@@ -241,7 +241,7 @@ section p table {
         grid-template-columns: repeat(1, auto);
     }
     #item-container .item .card-header {
-        font-size: 3em;
+        font-size: 1.5em;
         user-select: none;
     }
     .card img {
@@ -258,5 +258,20 @@ section p table {
         width: 5vh;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card img {
+        height: 5vh;
+        width: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #main #item-container {
+        display: none;
     }
 }
