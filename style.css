@@ -115,7 +115,9 @@ footer {
     text-align: justify;
 }
 
-#profile-info, #resume-info, #reference-info {
+#profile-info,
+#resume-info,
+#reference-info {
     display: none;
 }
 
@@ -176,7 +178,7 @@ section p table {
     font-weight: bold;
 }
 
-#social-links{
+#social-links {
     margin-left: auto;
     margin-right: auto;
 }
@@ -222,9 +224,6 @@ section p table {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
     #main {
         height: 80vh;
         width: 100vw;
@@ -249,6 +248,41 @@ section p table {
         display: none;
     }
     #item-container .item br {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #main {
+        height: 80vh;
+        width: 100vw;
+        overflow: auto;
+    }
+    #main #item-container {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80vw;
+        height: 50vh;
+        margin: auto;
+        display: grid;
+        grid-row-gap: 5vh;
+        grid-template-columns: repeat(1, auto);
+    }
+    #item-container .item .card-header {
+        font-size: 3em;
+        user-select: none;
+    }
+    .card img {
+        display: none;
+    }
+    #item-container .item br {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #item-container {
         display: none;
     }
 }
