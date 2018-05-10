@@ -13,21 +13,18 @@
 
 $(document).ready(function () {
     $("#profile-card").click(function () {
-        $("#profile-card").addClass("auto-height");
         $("#profile-info").slideToggle("slow");
     });
 });
 
 $(document).ready(function () {
     $("#resume-card").click(function () {
-        $("#resume-card").addClass("auto-height");
         $("#resume-info").slideToggle("slow");
     });
 });
 
 $(document).ready(function () {
     $("#reference-card").click(function () {
-        $("#reference-card").addClass("auto-height");
         $("#reference-info").slideToggle("slow");
     });
 });
