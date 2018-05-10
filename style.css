@@ -245,7 +245,10 @@ section p table {
         user-select: none;
     }
     .card img {
-        display: none;
+        height: 10vh;
+        width: 10vh;
+        margin-left: auto;
+        margin-right: auto;
     }
     #item-container .item br {
         display: none;
