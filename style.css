@@ -63,6 +63,7 @@ footer {
 #main {
     height: 80vh;
     width: 100vw;
+    overflow-y: auto;
 }
 
 #main #item-container {
