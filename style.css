@@ -245,10 +245,7 @@ section p table {
         user-select: none;
     }
     .card img {
-        height: 10vh;
-        width: 10vh;
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
     }
     #item-container .item br {
         display: none;
@@ -273,16 +270,83 @@ section p table {
         grid-template-columns: repeat(1, auto);
     }
     #item-container .item .card-header {
-        font-size: 3em;
+        font-size: 2em;
         user-select: none;
     }
     .card img {
-        display: none;
+        height: 10vh;
+        width: 10vh;
+        margin-left: auto;
+        margin-right: auto;
     }
     #item-container .item br {
         display: none;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    #main {
+        height: 80vh;
+        width: 100vw;
+        overflow: auto;
+    }
+    #main #item-container {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80vw;
+        height: 50vh;
+        margin: auto;
+        display: grid;
+        grid-row-gap: 5vh;
+        grid-template-columns: repeat(1, auto);
+    }
+    #item-container .item .card-header {
+        font-size: 2em;
+        user-select: none;
+    }
+    .card img {
+        height: 10vh;
+        width: 10vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #item-container .item br {
+        display: none;
+    }
+}
+
+/* @media only screen and (min-width: 992px) {
+    #main {
+        height: 80vh;
+        width: 100vw;
+        overflow: auto;
+    }
+    #main #item-container {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80vw;
+        height: 50vh;
+        margin: auto;
+        display: grid;
+        grid-row-gap: 5vh;
+        grid-template-columns: repeat(1, auto);
+    }
+    #item-container .item .card-header {
+        font-size: 2em;
+        user-select: none;
+    }
+    .card img {
+        height: 15vh;
+        width: 15vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #item-container .item br {
+        display: none;
+    }
+}  */
 
 @media only screen and (min-width: 1200px) {
     #item-container {
