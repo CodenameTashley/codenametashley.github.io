@@ -223,6 +223,10 @@ section p table {
     width: 100%;
 }
 
+.auto-height {
+    height: auto;
+}
+
 @media only screen and (max-width: 600px) {
     #main {
         height: 80vh;
