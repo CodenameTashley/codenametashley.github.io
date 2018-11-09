@@ -75,7 +75,7 @@ footer {
     margin: auto;
     display: grid;
     grid-column-gap: 5vw;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(1, auto);
 }
 
 #main #item-container .item {
