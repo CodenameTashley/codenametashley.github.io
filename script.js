@@ -1,4 +1,5 @@
-/* Session Stack code */ ! function (a, b) {
+/* Session Stack code */ 
+! function (a, b) {
     var c = window;
     c.SessionStack = a, c[a] = c[a] || function () {
         c[a].q = c[a].q || [], c[a].q.push(arguments)
@@ -11,7 +12,7 @@
 
 /* End of Session Stack code */
 
-$(document).ready(function () {
+/* $(document).ready(function () {
     $("#profile-card").click(function () {
         $("#profile-info").slideToggle("slow");
     });
@@ -27,4 +28,4 @@ $(document).ready(function () {
     $("#reference-card").click(function () {
         $("#reference-info").slideToggle("slow");
     });
-});
+}); */
